@@ -5,7 +5,6 @@ This project implements a Smart Parking System using Verilog HDL, designed for s
 ## 📁 Project Structure
 ```bash
 ├── SmartParkingSystem.v    # Main module for the Smart Parking System
-├── SmartParkingSystem_tb.v # Testbench for simulation (to be created by the user)
 ```
 
 
