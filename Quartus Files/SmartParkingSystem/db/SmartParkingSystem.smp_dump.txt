@@ -1,0 +1,8 @@
+
+State Machine - |SmartParkingSystem|state
+Name state.HOLD_GATE_OPEN state.OPEN_GATE state.CHECK_SLOTS state.IDLE state.CLOSE_GATE 
+state.IDLE 0 0 0 0 0 
+state.CHECK_SLOTS 0 0 1 1 0 
+state.OPEN_GATE 0 1 0 1 0 
+state.HOLD_GATE_OPEN 1 0 0 1 0 
+state.CLOSE_GATE 0 0 0 1 1 
